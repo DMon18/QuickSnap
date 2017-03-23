@@ -41,7 +41,7 @@ namespace CardGames
                     _testCard.TurnOver();
                 }
 
-                SwinGame.DrawText ("Card generated was: " + _testCard.ToString (), Color.Yellow, 0, 30);
+                SwinGame.DrawText ("Card generated was: " + _testCard.ToString (), Color.Black, 0, 80);
                 SwinGame.DrawCell (SwinGame.BitmapNamed ("Cards"), _testCard.CardIndex, 160, 50);
 
                 //Clear the screen and draw the framerate
